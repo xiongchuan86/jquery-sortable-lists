@@ -233,7 +233,7 @@
 			var placeholderNode = state.placeholderNode = $( '#sortableListsPlaceholder' );  // jQuery object && document node
 
 			el.css( {
-				'width': el.width(),
+				'width': el.outerWidth(),
 				'position': 'absolute',
 				'top': elXY.top - elMT,
 				'left': elXY.left - elML
